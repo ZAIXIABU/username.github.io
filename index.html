@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>二硫碘化钾的个人博客</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* 所有CSS样式保持不变 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0a192f 0%, #1a3a5f 100%);
+            color: #e6f1ff;
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(100, 255, 218, 0.05) 0%, transparent 20%),
+                radial-gradient(circle at 90% 80%, rgba(0, 168, 204, 0.05) 0%, transparent 20%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* 其余CSS保持不变... */
+    </style>
+</head>
+<body>
+    <!-- 页面内容保持不变 -->
+    <header>
+        <div class="decoration circle floating"></div>
+        <div class="decoration square"></div>
+        <div class="decoration triangle floating" style="animation-delay: 1s;"></div>
+        <div class="container header-content">
+            <h1 class="logo">二硫碘化钾</h1>
+            <p class="tagline">游戏玩家 · 羽毛球达人 · 校园开心果</p>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-qq"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-weixin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-steam"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- 导航 -->
+    <nav>
+        <div class="container nav-container">
+            <ul class="nav-links">
+                <li><a href="#about"><i class="fas fa-user"></i> 关于我</a></li>
+                <li><a href="#hobbies"><i class="fas fa-gamepad"></i> 兴趣爱好</a></li>
+                <li><a href="#skills"><i class="fas fa-medal"></i> 特长技能</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> 教育背景</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> 联系方式</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- 主内容区 -->
+    <main class="container">
+        <!-- 关于我 -->
+        <section id="about" class="section">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="avatar">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="二硫碘化钾" class="avatar-img">
+                </div>
+                <div class="info">
+                    <h3>你好，我是二硫碘化钾！</h3>
+                    <p><span class="highlight">性别：</span>男</p>
+                    <p><span class="highlight">爱好：</span>玩游戏、打羽毛球、电子竞技</p>
+                    <p><span class="highlight">学龄：</span>10年</p>
+                    <p>我是一个充满活力和热情的人，在过去的10年学习生涯中，我不仅专注于学业，还积极参与各种活动。</p>
+                    <p>作为学校的开心果，我擅长用幽默和积极的态度感染身边的人，为校园带来了许多欢声笑语。</p>
+                    <p>无论是虚拟世界中的电子竞技，还是现实生活中的羽毛球赛场，我都能展现出我的激情和才能。</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 兴趣爱好 -->
+        <section id="hobbies" class="section">
+            <h2 class="section-title">兴趣爱好</h2>
+            <div class="hobbies">
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-table-tennis-paddle-ball"></i>
+                    </div>
+                    <h3 class="hobby-title">羽毛球</h3>
+                    <p>擅长各种技巧，扣杀、吊球、网前小球都不在话下。每周坚持训练，保持竞技状态。</p>
+                </div>
+                
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="hobby-title">电子竞技</h3>
+                    <p>精通多款竞技游戏，擅长团队配合和战术策略。多次参加线上比赛并取得优异成绩。</p>
+                </div>
+                
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-laugh-beam"></i>
+                    </div>
+                    <h3 class="hobby-title">传播快乐</h3>
+                    <p>天生幽默感十足，擅长活跃气氛。在校园里是有名的开心果，总能给身边的人带来欢乐。</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 技能特长 -->
+        <section id="skills" class="section">
+            <h2 class="section-title">特长技能</h2>
+            <div class="skills">
+                <div class="skill-category">
+                    <h3><i class="fas fa-table-tennis-paddle-ball"></i> 羽毛球技能</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check skill-icon"></i> 精准扣杀</li>
+                        <li><i class="fas fa-check skill-icon"></i> 灵活步法</li>
+                        <li><i class="fas fa-check skill-icon"></i> 网前小球</li>
+                        <li><i class="fas fa-check skill-icon"></i> 高远球控制</li>
+                        <li><i class="fas fa-check skill-icon"></i> 双打配合</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-gamepad"></i> 电子竞技</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check skill-icon"></i> 快速反应能力</li>
+                        <li><i class="fas fa-check skill-icon"></i> 战术策略制定</li>
+                        <li><i class="fas fa-check skill-icon"></i> 团队协作</li>
+                        <li><i class="fas fa-check skill-icon"></i> 游戏局势分析</li>
+                        <li><i class="fas fa-check skill-icon"></i> 多游戏精通</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-users"></i> 社交能力</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check skill-icon"></i> 幽默风趣</li>
+                        <li><i class="fas fa-check skill-icon"></i> 活跃气氛</li>
+                        <li><i class="fas fa-check skill-icon"></i> 团队凝聚力</li>
+                        <li><i class="fas fa-check skill-icon"></i> 乐观积极</li>
+                        <li><i class="fas fa-check skill-icon"></i> 沟通表达</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="game-icons">
+                <div class="game-icon"><i class="fab fa-steam"></i></div>
+                <div class="game-icon"><i class="fas fa-chess"></i></div>
+                <div class="game-icon"><i class="fas fa-table-tennis-paddle-ball"></i></div>
+                <div class="game-icon"><i class="fas fa-headset"></i></div>
+                <div class="game-icon"><i class="fas fa-dice"></i></div>
+            </div>
+        </section>
+        
+        <!-- 教育背景 -->
+        <section id="education" class="section">
+            <h2 class="section-title">学习经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2015至2018</div>
+                        <p>我的幼稚园阶段，当时的我超萌的</p>
+                        <p>喜欢玩各种各样的玩具</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2018至2024</div>
+                        <p>我的小学阶段：开始培养羽毛球爱好，参加校队训练</p>
+                        <p>在班级中担任文艺委员，组织各种活动</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2021 - 至今</div>
+                        <p>开启了我的丰富多彩的初中生活</p>
+                        <p>加入羽毛球社团和电子竞技社团</p>
+                        <p>学龄10年，持续为学校带来欢乐与活力</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 联系方式 -->
+        <section id="contact" class="section">
+            <h2 class="section-title">联系方式</h2>
+            <div class="contact-section">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>电子邮箱</h3>
+                            <p>abc150186@qq.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>联系电话</h3>
+                            <p>138-XXXX-XXXX</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>所在地</h3>
+                            <p>中国 · 快乐星球</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>游戏ID</h3>
+                            <p>二硫碘化钾#9527</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3 style="color: #64ffda; margin-bottom: 20px; text-align: center;">给我留言</h3>
+                    <div class="form-group">
+                        <label for="name">姓名</label>
+                        <input type="text" id="name" placeholder="请输入您的姓名">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">邮箱</label>
+                        <input type="email" id="email" placeholder="请输入您的邮箱">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">留言内容</label>
+                        <textarea id="message" placeholder="有什么想对我说的吗？"></textarea>
+                    </div>
+                    <button class="submit-btn">发送消息</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- 页脚 -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">二硫碘化钾</div>
+            <p>生命不息，运动不止；游戏人生，快乐永恒</p>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-qq"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-weixin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-bilibili"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-steam"></i></a>
+            </div>
+            <div class="copyright">
+                © 2023 二硫碘化钾的个人博客 | 用快乐感染每一个人
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // 简单的表单验证
+        document.querySelector('.submit-btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            if(!name || !email || !message) {
+                alert('请填写所有必填字段！');
+                return;
+            }
+            
+            if(!validateEmail(email)) {
+                alert('请输入有效的邮箱地址！');
+                return;
+            }
+            
+            alert('消息已发送！我会尽快回复您。');
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('message').value = '';
+        });
+        
+        function validateEmail(email) {
+            const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(String(email).toLowerCase());
+        }
+        
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
